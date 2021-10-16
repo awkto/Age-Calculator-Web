@@ -11,7 +11,7 @@ body{
 	box-sizing: border-box;
 }
 
-/*main container styling*/
+
 .container{
 	width:520px;
 	height: auto;
@@ -21,7 +21,8 @@ body{
 	border-radius: 5px;
 }
 
-/*title text styling*/
+/* heading and title styling in box */
+
 .base{
 	width: 100%;
 	 
@@ -43,6 +44,9 @@ body{
 	color: navy;
 }
 
+
+/* styling for entry fields */
+
 .block{
 	width: 135px;
 	padding: 5px 20px;
@@ -51,8 +55,8 @@ body{
 	display: inline-block;
 	float: left;
 }
- 
-/*styling for input boxes for dob*/
+
+
 .title{
 	font-size: 20px;
 	text-align: left;
@@ -81,4 +85,24 @@ input[type=text]:focus{
 	background-color: #ffffff;
 	border: 2px solid orange;
 	outline: none;
+}
+
+/* styling for submit button */
+
+input[type=button]{
+	width: 150px;
+	margin-left: 35%;
+        margin-top: 40px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	background-color: #0761b6;
+	color: #ffffff;
+	padding: 14px 16px;
+	text-align: center;
+  
+	font-size: 16px;
+}
+input[type=button]:hover{
+	background-color: #003669;
 }
