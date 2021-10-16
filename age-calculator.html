@@ -13,7 +13,9 @@
       <form>
         <div class="base">
           <!-- Title in box -->
-          <h4>Age Calculator</h4>
+          <div class="enter">
+            <h4>Age Calculator</h4>
+          </div>
           <!-- input fields Date / Month / Year  -->
           <div class="block">
             <p class="title">Date</p>
@@ -51,13 +53,14 @@
               maxlength="4"
             />
           </div>
-          <div class="base">
- 
+        </div>
+        <div class="base">
+          <div class="enter">
             <input type="button" name="submit" value="Submit" onclick="age()" />
-         
           </div>
         </div>
-
+        <!-- place to see the calculated age -->
+        <div id="age"></div>
       </form>
     </div>
 
